@@ -16,3 +16,6 @@ root.geometry("400x650")
 
 label_judul = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=("Helvetica", 14, "bold"))
 label_judul.pack(pady=20)
+
+frame_input = tk.Frame(root)
+frame_input.pack(pady=10)
