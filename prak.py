@@ -9,3 +9,7 @@ def proses_prediksi():
                            font=("Helvetica", 12, "bold"), fg="blue")
     
     label_hasil.pack(expand=True) 
+
+root = tk.Tk()
+root.title("Aplikasi Prediksi")
+root.geometry("400x650") 
