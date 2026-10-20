@@ -42,3 +42,6 @@ variabel_prodi.set(daftar_prodi[0]) # Menetapkan nilai awal/default
 dropdown_prodi = tk.OptionMenu(frame_dropdown, variabel_prodi, *daftar_prodi)
 dropdown_prodi.config(width=15)
 dropdown_prodi.pack(side="left", padx=5)
+
+btn_prediksi = tk.Button(root, text="Hasil Prediksi", font=("Helvetica", 10, "bold"), command=proses_prediksi)
+btn_prediksi.pack(pady=15)
