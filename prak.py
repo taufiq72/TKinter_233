@@ -31,3 +31,14 @@ for i in range(1, 11):
 
 frame_dropdown = tk.Frame(root)
 frame_dropdown.pack(pady=10)
+
+label_dropdown = tk.Label(frame_dropdown, text="Pilihan Jurusan Anda:")
+label_dropdown.pack(side="left", padx=5)
+
+daftar_prodi = ["Teknologi Informasi", "Sistem Informasi", "Teknik Elektro", "Teknik Industri", "Teknik Sipil", "Farmasi", "Kedokteran"]
+variabel_prodi = tk.StringVar(root)
+variabel_prodi.set(daftar_prodi[0]) # Menetapkan nilai awal/default
+
+dropdown_prodi = tk.OptionMenu(frame_dropdown, variabel_prodi, *daftar_prodi)
+dropdown_prodi.config(width=15)
+dropdown_prodi.pack(side="left", padx=5)
