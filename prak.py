@@ -19,3 +19,12 @@ label_judul.pack(pady=20)
 
 frame_input = tk.Frame(root)
 frame_input.pack(pady=10)
+
+entries = []
+for i in range(1, 11):
+    label_mapel = tk.Label(frame_input, text=f"Nilai Mata Pelajaran {i}:")
+    label_mapel.grid(row=i, column=0, padx=10, pady=5, sticky="e")
+    
+    entry_mapel = tk.Entry(frame_input, width=15)
+    entry_mapel.grid(row=i, column=1, padx=10, pady=5)
+    entries.append(entry_mapel)
