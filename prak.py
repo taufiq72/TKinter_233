@@ -45,3 +45,5 @@ dropdown_prodi.pack(side="left", padx=5)
 
 btn_prediksi = tk.Button(root, text="Hasil Prediksi", font=("Helvetica", 10, "bold"), command=proses_prediksi)
 btn_prediksi.pack(pady=15)
+
+root.mainloop()
