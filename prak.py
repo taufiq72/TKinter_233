@@ -12,4 +12,7 @@ def proses_prediksi():
 
 root = tk.Tk()
 root.title("Aplikasi Prediksi")
-root.geometry("400x650") 
+root.geometry("400x650")
+
+label_judul = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=("Helvetica", 14, "bold"))
+label_judul.pack(pady=20)
