@@ -28,3 +28,6 @@ for i in range(1, 11):
     entry_mapel = tk.Entry(frame_input, width=15)
     entry_mapel.grid(row=i, column=1, padx=10, pady=5)
     entries.append(entry_mapel)
+
+frame_dropdown = tk.Frame(root)
+frame_dropdown.pack(pady=10)
